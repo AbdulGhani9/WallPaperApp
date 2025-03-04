@@ -51,6 +51,7 @@ Future<void> setWallpaper() async {
   var size = MediaQuery.sizeOf(context);
     var Size(:height, :width) = size;
     return Scaffold(
+      appBar: AppBar(title: Text("Select WallPaper"),),
       body: Column(
         children: [
           Expanded(child: Container(
